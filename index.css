@@ -1,0 +1,75 @@
+body {
+    background-color: #2e0668;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vertical-container {
+height: auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin: 69px 85px;
+}
+
+.team {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-weight: 700;
+font-size: 40px;
+margin: 0;
+color: #EEEEEE;
+}
+
+.score {
+font-family: 'Cursed Timer ULiL', sans-serif;
+font-weight: 400;
+font-size: 90px;
+color: #F94F6D;
+background-color: #080001;
+width: 155px;
+height: 120px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 5px;
+margin-top: 21px;
+}
+
+.buttons {
+width: 155px;
+height: 45px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+margin-top: 26px;
+}
+
+.btn1, .btn2, .btn3 {
+    background-color: #2e0668;
+    border: 2px solid #9AABD8;
+    height: 45px;
+    width: 45px;
+    border-radius: 5px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #9AABD8;
+    transition-duration: 0.4s;
+}
+
+.btn1:hover, .btn2:hover, .btn3:hover {
+    opacity: 50%;
+    transition-duration: 0.4s;
+}
+.btn1:active, .btn2:active, .btn3:active {
+    opacity: 10%;
+    transition-duration: 0.4s;
+}
+
+/* .border {
+    border: 2px dotted red;} */
